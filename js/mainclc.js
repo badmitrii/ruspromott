@@ -9,14 +9,14 @@ var task2=document.getElementById("task2");
 var task3=document.getElementById("task3");
 var mor=document.getElementById("moreover");
 task1.onclick= function(){
-    window.location='/task1/action_index';
+    window.location='/task1/index';
 }
 task2.onclick= function(){
-    window.location='/task2/action_index';
+    window.location='/task2/index';
 }
 task3.onclick= function(){
-    window.location='/task3/action_index';
+    window.location='/task3/index';
 }
 mor.onclick= function(){
-    window.location='/mor/action_index';
+    window.location='/mor/index';
 }
