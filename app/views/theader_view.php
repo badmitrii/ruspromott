@@ -11,14 +11,14 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <div>
+        <div class="head">
             <a href="/task1/action_index">Task 1</a>
             <a href="/task2/action_index">Task 2</a>
             <a href="/task3/action_index">Task 3</a>
             <a href="/task4/action_index">Moreover</a>
         </div>
         <?php
-            include '/app/view'.$content_view;
+            include __DIR__.'/'.$content_view;
         ?>
     </body>
 </html>
