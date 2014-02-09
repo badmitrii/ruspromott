@@ -13,7 +13,8 @@ class Route
         }
         if ( !empty($routes[2]) )
         {
-            $action_name = $routes[2];
+            $action_n=  explode('?', $routes[2]);
+            $action_name = $action_n[0];
         }
         $model_name = 'Model_'.$controller_name;
         $controller_name = 'Controller_'.$controller_name;

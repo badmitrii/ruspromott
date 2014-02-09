@@ -12,10 +12,10 @@ and open the template in the editor.
     </head>
     <body>
         <div class="head">
-            <a href="/task1/action_index">Task 1</a>
-            <a href="/task2/action_index">Task 2</a>
-            <a href="/task3/action_index">Task 3</a>
-            <a href="/task4/action_index">Moreover</a>
+            <a href="/task1/index?page=0">Task 1</a>
+            <a href="/task2/index">Task 2</a>
+            <a href="/task3/index">Task 3</a>
+            <a href="/task4/index">Moreover</a>
         </div>
         <?php
             include __DIR__.'/'.$content_view;
