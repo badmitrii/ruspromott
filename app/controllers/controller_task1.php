@@ -9,9 +9,14 @@ class Controller_task1 extends Controller {
 
     function action_index() {
         $data = $this->model->get_data();
+        //Using to avoid double checking of the same conditions
         $pcon = NULL;
+        if (isset($_GET["page"])) {
+            $page = $_GET["page"];
+        } else {
+            $page = 1;
+        }
         $total = $data["total"];
-        $page = $_GET["page"];
         $stpage = $enpage = $page1left = $page2left = $page1right = $page2right = $page3left = $page4left = $page3right = $page4right = NULL;
         $data = array("page" => $page, "stpage" => $stpage, "enpage" => $enpage,
             "page1left" => $page1left, "page2left" => $page2left,
@@ -61,10 +66,9 @@ class Controller_task1 extends Controller {
             } elseif ($data["page"] - 3 > 0) {
                 $data["page3left"] = '<a href=/task1/index?page=' . ($data["page"] - 3) . '>' . ($data["page"] - 3) . '</a>';
             }
-
-
+            $fcontent=substr($data["fcontent"], 300*($page-1), 300);
+            $data["fcontent"]= explode("\n", $fcontent);
             $this->view->generate('t1content_view.php', 'theader_view.php', $data);
         }
     }
-
 }
