@@ -9,10 +9,14 @@ div > a{
     word-spacing: normal;
 }
 div.content{
+    overflow-wrap: break-word;
     width: 100%;
     height: 100%;
     padding: 10px;
-    text-align: justify;
+}
+.footer{
+    padding:10px;
+    word-spacing: 5px;
 }
 .footer > span {
     background-color: #24323B;
