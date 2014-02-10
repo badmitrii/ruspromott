@@ -12,7 +12,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="head">
-            <a href="/task1/index?page=0">Task 1</a>
+            <a href="/task1/index?page=1">Task 1</a>
             <a href="/task2/index">Task 2</a>
             <a href="/task3/index">Task 3</a>
             <a href="/task4/index">Moreover</a>
