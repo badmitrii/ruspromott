@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 class Model_Task1 extends Model{
     public function get_data(){

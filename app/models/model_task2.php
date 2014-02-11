@@ -1,4 +1,4 @@
-<?php
+<?php 
  
 class Model_task2 extends Model{
     

@@ -7,7 +7,7 @@
     ?>
 
 </div>
-
+ 
 <div class="footer">
     <?php
         echo $data["stpage"] .' '. $data["page4left"] . ' ' . $data["page3left"]. ' ' . $data["page2left"] .' '. $data["page1left"] .' '.
