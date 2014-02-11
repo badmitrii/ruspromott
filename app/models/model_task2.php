@@ -1,5 +1,5 @@
 <?php
-
+ 
 class Model_task2 extends Model{
     
     public function get_data(){
