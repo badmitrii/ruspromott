@@ -1,8 +1,9 @@
 <div class="content">
     <pre>
        <?php
-            echo $data;
+            echo htmlentities($data);
         ?>
+	
     </pre>
 </div> 
 
