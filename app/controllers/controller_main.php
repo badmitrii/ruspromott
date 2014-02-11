@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class Controller_Main extends Controller
 {

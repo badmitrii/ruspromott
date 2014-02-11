@@ -1,5 +1,3 @@
-<body>
-	<h1>Page not found</h1> 
-</body>
+<h1>Page not found</h1>
 
 

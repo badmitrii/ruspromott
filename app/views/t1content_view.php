@@ -5,6 +5,7 @@
             echo $val.'<br/>';
         echo '</span>'
     ?>
+
 </div>
 
 <div class="footer">

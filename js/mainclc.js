@@ -1,3 +1,8 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
 var task1=document.getElementById("task1");
 var task2=document.getElementById("task2");
