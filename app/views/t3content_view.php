@@ -1,18 +1,8 @@
-<head>
-<style>
-    
-    td{
-        padding: 2px;
-        font-size: 0.6em;
-    }
-    </style>
-</head>
-<body>
-    
 <div>
-    <table style="border: 1px solid black; margin:auto; max-width: 90%;">
+ 
+    <table>
         <tr>
-            <td>
+            <td id="d">
                 ГЛАВНАЯ
             </td>
             <td>
@@ -21,10 +11,10 @@
             <td>
                ЧАСТНЫМ ЛИЦАМ
             </td>
-            <td>
+            <td id="s">
                 ЮРИДИЧЕСКИ ЛИЦАМ
             </td>
-            <td>
+            <td id="t">
                 СЛУЖБА ПОДДЕРЖКИ
             </td>
             <td>
@@ -42,4 +32,3 @@
         </tr>
     </table>
 </div>
-</body>
