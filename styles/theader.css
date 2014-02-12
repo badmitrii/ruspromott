@@ -23,18 +23,17 @@ div.content{
     background-color: #24323B;
     color: #fff;
 }
-table{
-    border-collapse: collapse;
-    box-sizing: border-box;
-    width:1000px;
-    margin:auto;
-
+ul{
+    text-align: center;
+    padding:0;
 }
-td{
+li{
+    display:inline-block;
+    background-color: rgb(172,0,20);
     text-align: center;
     border:0;
-    padding-left:4px;
-    padding-right:4px;
+    padding-left:5px;
+    padding-right:5px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 10pt;
@@ -42,26 +41,32 @@ td{
     color: #fff;
     font-family: "Arial", "sans-serif";
 }
-tr{
-    padding-left:6px;
-    padding-right:6px;
-    background-color: rgb(172,0,20);
-}
-#d{
+li:hover{
     color:rgb(172,0,20);
     background-color: #fff;
 }
-#s{
+#m{
+    padding-right:6px;
+    color:rgb(172,0,20);
+    background-color: #fff;
+}
+#ab{
+    padding-left: 6px;
+}
+#u{
     background-image: -webkit-linear-gradient(left,rgb(172,0,20),rgb(248,72,49));
     background-image: -moz-linear-gradient(left,rgb(172,0,20),rgb(248,72,49));
     background-image: -ms-linear-gradient(left,rgb(172,0,20),rgb(248,72,49));
     background-image: -o-linear-gradient(left,rgb(172,0,20),rgb(248,72,49));
     background-image: linear-gradient(left,rgb(172,0,20),rgb(248,72,49));
 }
-#t{
+#s{
     background-image: -webkit-linear-gradient(left,rgb(248,72,49),rgb(172,0,20));
     background-image: -moz-linear-gradient(left,rgb(248,72,49),rgb(172,0,20));
     background-image: -ms-linear-gradient(left,rgb(248,72,49),rgb(172,0,20));
     background-image: -o-linear-gradient(left,rgb(248,72,49),rgb(172,0,20));
     background-image: linear-gradient(left,rgb(248,72,49),rgb(172,0,20));
+}
+li#s:hover, li#u:hover{
+    background-image: none;
 }
